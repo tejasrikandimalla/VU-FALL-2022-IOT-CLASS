@@ -1,8 +1,8 @@
 Steps to setup router:
 1. Connect router with Usb port of laptop for charging the router 
 2. Setup the LAN wire to the laptop for internet connection
-3. Go to the Wifi and search for default network name of router, you can find it in router's manual 
-4. Connect to the network using default password given in manual
+3. Go to the Wifi and search for default network name of router, you can find it in router's manual as GL-MT300N-*** 
+4. Connect to the network using default password given in manual.
 5. Search the Url (example: http://198.168.8.1) provided in manual in chrome.
 6. Choose the language prefered and click next
 7. Set the Admin password, then click next 
