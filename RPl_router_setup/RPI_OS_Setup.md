@@ -33,12 +33,13 @@ CONFIGURATION:
 2.	Copy the dietpi.txt and dietpi-wifi.txt files to temporary folder for future use.
 3.	Edit the configuration of dietpi-wifi.txt file with Wi-Fi credentials of router
                
-               ![Screenshot 2022-09-21 004458](https://user-images.githubusercontent.com/112652553/191416439-c2ba000e-6488-4bd4-a2f9-5884d105f326.png)
+![Screenshot 2022-09-21 004458](https://user-images.githubusercontent.com/112652553/191416632-7e1f6cf9-88d3-4547-84f1-1367225bc3ea.png)
 
                 
 4.	Edit the configuration of dietpi.txt file with below provide variables
              
-             ![Screenshot 2022-09-21 004534](https://user-images.githubusercontent.com/112652553/191416406-dcc55129-4dd0-4bb7-82e1-3682656db56f.png)
+             
+![Screenshot 2022-09-21 004534](https://user-images.githubusercontent.com/112652553/191416605-c5ba7af7-0914-4e0f-932e-15aaebc357b4.png)
 
              
 5.	Save the diepi.txt and dietpi-wifi.txt files to save the changes made
