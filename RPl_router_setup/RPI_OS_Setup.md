@@ -1,3 +1,5 @@
+Diet Pi setup on Raspbery Pi using wifi router model
+
 Prerequisites Hardware:
 
 1.	Laptop 
