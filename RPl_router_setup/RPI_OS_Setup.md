@@ -1,10 +1,12 @@
 Prerequisites Hardware:
-Laptop 
-Router 
-Raspberry Pi B model
-32GB SD card along with card reader
+
+1.Laptop 
+2.Router 
+3.Raspberry Pi B model
+4.32GB SD card along with card reader
 
 STEP 1:
+
 Download the file extractor 7-zip using  https://www.7-zip.org for windows.
 Download the SD card writer balenaEtcher using https://www.balena.io/etcher/
 
