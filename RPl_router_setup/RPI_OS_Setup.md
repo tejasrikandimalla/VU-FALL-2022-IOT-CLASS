@@ -32,23 +32,15 @@ CONFIGURATION:
 1.	Open the SD Card drive in file explorer 
 2.	Copy the dietpi.txt and dietpi-wifi.txt files to temporary folder for future use.
 3.	Edit the configuration of dietpi-wifi.txt file with Wi-Fi credentials of router
-                 aWIFI_SSID[0]=''
-                 aWIFI_KEY[0]=''
+               
+               ![Screenshot 2022-09-21 004458](https://user-images.githubusercontent.com/112652553/191416439-c2ba000e-6488-4bd4-a2f9-5884d105f326.png)
 
+                
 4.	Edit the configuration of dietpi.txt file with below provide variables
-              AUTO_SETUP_LOCALE=en_US.UTF-8
-              AUTO_SETUP_KEYBOARD_LAYOUT=us
-              AUTO_SETUP_TIMEZONE=America/New_York
-              AUTO_SETUP_NET_ETHERNET_ENABLED=0
-              AUTO_SETUP_NET_WIFI_ENABLED=1
-              AUTO_SETUP_NET_WIFI_COUNTRY_CODE=US
-              AUTO_SETUP_DHCP_TO_STATIC=1
-              AUTO_SETUP_NET_HOSTNAME=DietPi_{YOUR_INITIALS}
-              AUTO_SETUP_HEADLESS=1
-              AUTO_SETUP_AUTOSTART_TARGET_INDEX=1
-              SURVEY_OPTED_IN=0
-              CONFIG_SERIAL_CONSOLE_ENABLE=1
+             
+             ![Screenshot 2022-09-21 004534](https://user-images.githubusercontent.com/112652553/191416406-dcc55129-4dd0-4bb7-82e1-3682656db56f.png)
 
+             
 5.	Save the diepi.txt and dietpi-wifi.txt files to save the changes made
 6.	Eject the SD card
 
