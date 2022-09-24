@@ -1,1 +1,72 @@
+The link for tutorial for installation of LWM2M server and client on you raspberry pi:
+https://github.com/pschragger/IOT_Tutorials_for_VU/tree/main/RPI_DEVICE_MANAGEMENT_INSTALL_tutorial
+
+Prerequisites:
+ Laptop 
+ Router
+ Raspberry Pi with Diet Pi
+
+Step 1:
+ Open the dietpi using the command ssh dietpi@(IP_address) and password 
+
+Step 2:
+
+Search for software using command below:
+sudo dietpi-software
+ 
+Install git searching in software search and clone the git using following commands
+- Git: Clone and manage Git repositories locally
+
+Check for git version using  git –version command 
+And install java Jdk through software
+- Java JDK: OpenJDK Development Kit
+
+And check for java – version
+Install maven on the pi after creating the download directory and change path to downlad directory
+Download lastest maven using 
+wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+
+Unpack the tarball using below command:
+tar xzvf apache-maven-3.8.6-bin.tar.gz
+
+The directory path is changed through following command
+echo 'PATH="${PATH}:~/download/apache-maven-3.8.6/bin"' >>  ~/.bashrc
+
+test maven version using bash mvn -v 
+The JAVA_HOME environments are checked through the below command path
+sudo echo 'JAVA_HOME="/usr/lib/jvm/java-17-openjdk-arm64"' >> ~/.bashrc
+
+The installation is completed can be known using: bash echo $JAVA_HOME
+Step 3:
+Leshan is installed to the git after creating the projects directory and change the current directory to projects  
+And clone the leshan repo using below command
+git clone https://github.com/eclipse/leshan.git
+
+for the build of leshan change the directory again and build it using below commands
+cd ~/projects/leshan
+mvn clean install
+
+This may take up to 20 minutes or more based on different factors
+
+Step 5:
+
+Testing the leshan server using below:
+cd ~/projects/leshan
+java -jar leshan-server-demo/target/leshan-server-demo-*-SNAPSHOT-jar-with-dependencies.jar &
+
+Browse the Leshan url to see client page: UI: http://RPI_IPADDR:8080
+For registering the client to add it to page through below:
+java -jar leshan-client-demo/target/leshan-client-demo-*-SNAPSHOT-jar-with-dependencies.jar
+
+
+
+
+
+
+
+
+
+
+
+
 
